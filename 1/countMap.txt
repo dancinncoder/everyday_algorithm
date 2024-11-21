@@ -1,0 +1,23 @@
+#Problem: "Sum of Unique Numbers"
+
+#Description: Write a JavaScript function that takes an array of integers as an input and returns the sum of all the unique (non-repeated) numbers in that array.
+
+#For example:
+- Given the array [1, 2, 3, 2, 4, 5, 1], the unique numbers are [3, 4, 5], so the function should return 3 + 4 + 5 = 12.
+- Given the array [1, 1, 1, 1], since there are no unique numbers, the function should return 0.
+
+#Function Signature:
+  function sumOfUniqueNumbers(arr) {
+      // Your code here
+  }
+
+#Input:
+arr (Array): an array of integers, where 1 <= arr.length <= 10^4 and -10^4 <= arr[i] <= 10^4.
+
+#Output:
+Return the sum of the unique numbers in the array.
+
+#Examples:
+sumOfUniqueNumbers([1, 2, 3, 2, 4, 5, 1]); // Output: 12
+sumOfUniqueNumbers([1, 1, 1, 1]);         // Output: 0
+sumOfUniqueNumbers([10, 20, 30, 40]);      // Output: 100
